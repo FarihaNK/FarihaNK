@@ -3,7 +3,6 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FarihaNK&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FarihaNK&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
@@ -51,7 +50,7 @@
 <table align="center">
   <tr>
     <td align="center" width="200">
-      <img height="200" width="200" src="https://media.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif" />
+      <img height="200" width="200" src="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" />
     </td>
     <td align="center">
       <a href="mailto:nawed.khan7904@gmail.com" target="_blank">
@@ -70,7 +69,9 @@
 ###
 
 <br clear="both">
-
-<img src="https://raw.githubusercontent.com/FarihaNK/FarihaNK/output/snake.svg" alt="Snake animation" />
-
+<div align="center">
+  <h2>🐍 My Contributions 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/FarihaNK/FarihaNK/output/github-contribution-grid-snake.svg" />
+</div>
 ###
