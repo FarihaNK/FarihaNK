@@ -15,4 +15,4 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=farihank&show_icons=true&locale=en&layout=compact" alt="farihank" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=farihank&" alt="farihank" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=FarihaNK&" alt="FarihaNK" /></p>
