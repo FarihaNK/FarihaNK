@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%"  stop-color="#8D99AF"/>
+      <stop offset="18%" stop-color="#A9A4A8"/>
+      <stop offset="38%" stop-color="#E4BA94"/>
+      <stop offset="58%" stop-color="#FFE598"/>
+      <stop offset="78%" stop-color="#FED06E"/>
+      <stop offset="92%" stop-color="#D3A25D"/>
+      <stop offset="100%" stop-color="#6B1F2A"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#FFF4D6" stop-opacity="0.75"/>
+      <stop offset="55%" stop-color="#FFE598" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFE598" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="200" fill="url(#sky)"/>
+
+  <circle cx="630" cy="48" r="105" fill="url(#sunGlow)">
+    <animate attributeName="r" values="105;115;105" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- cloud A -->
+  <g opacity="0.65">
+    <ellipse cx="140" cy="150" rx="100" ry="32" fill="#F3E9DF"/>
+    <ellipse cx="85"  cy="115" rx="55"  ry="45" fill="#8D99AF"/>
+    <ellipse cx="150" cy="95"  rx="68"  ry="58" fill="#F3E9DF"/>
+    <ellipse cx="205" cy="118" rx="52"  ry="42" fill="#E4BA94"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 20,-6; 0,0" dur="15s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- cloud B -->
+  <g opacity="0.6">
+    <ellipse cx="480" cy="160" rx="115" ry="34" fill="#FED06E"/>
+    <ellipse cx="415" cy="125" rx="58"  ry="48" fill="#F3E9DF"/>
+    <ellipse cx="485" cy="100" rx="72"  ry="62" fill="#FFE598"/>
+    <ellipse cx="555" cy="128" rx="55"  ry="45" fill="#D3A25D"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -18,7; 0,0" dur="18s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- cloud C, smaller / further back -->
+  <g opacity="0.45">
+    <ellipse cx="680" cy="90" rx="90" ry="28" fill="#6B1F2A"/>
+    <ellipse cx="635" cy="62" rx="48" ry="38" fill="#E4BA94"/>
+    <ellipse cx="685" cy="48" rx="58" ry="48" fill="#E4BA94"/>
+    <ellipse cx="735" cy="65" rx="45" ry="35" fill="#6B1F2A"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 14,-8; 0,0" dur="12s" repeatCount="indefinite"/>
+  </g>
+</svg>
